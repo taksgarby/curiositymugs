@@ -23,7 +23,7 @@ const Header = ( { user } ) => {
     <Header>
         <HeaderGroup>
           <h1>Curiosity Mugs</h1>
-          <h4>Indulge in the Art of Exquisite Cups</h4>
+          <h3>Indulge in the Art of Exquisite Mugs and Cups</h3>
         </HeaderGroup>
 
       <nav>

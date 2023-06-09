@@ -3,13 +3,13 @@ import styled from 'styled-components';
 
 const Item = ({ item, user, onBasketAdd }) => {
 
-  const StockItem = styled.div `
+  const StockItem = styled.div`
     margin: 5px;
     display: flex;
     flex-direction: column;
   `
 
-  const ItemImage = styled.img `
+  const ItemImage = styled.img`
     margin: 2rem;
     height: 300px;
     box-shadow: 2px 2px 4px grey;
@@ -41,12 +41,11 @@ const Item = ({ item, user, onBasketAdd }) => {
  
   `
 
-  const PriceInfo = styled.p `
+  const PriceInfo = styled.p`
     text-align: center;
     margin-top: 0;
     color: #202020;
     font-size: 1.1rem;
-
 `
 
   const onClick = () => {

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const ItemsList = ({ items, user, onBasketAdd }) => {
 
-  const ItemList = styled.div `
+  const ItemList = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

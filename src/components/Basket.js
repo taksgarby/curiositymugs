@@ -5,27 +5,34 @@ import { Link } from "react-router-dom";
 const Basket = ( { user, onRemoveItem } ) => {
 
     const Basketlist = styled.div`
-        width:80%;
-        margin: 60px;
-        padding: 30px;
+        width:60%;
+        margin-top: 60px;
+        margin-left: 150px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
         background-color: lightyellow;
         color: #202020;
         box-shadow: 4px 4px 4px 4px grey;
         border-radius: 10px;
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     `
 
     const Button = styled.button `
         background-color: white;
         color: black;
-        margin: 5px;
+        margin-top: 0;
+        padding: 10px;
+        margin-bottom: 10px;
         border: 2px solid grey; 
         border-radius: 8px;
+        font-size: 1rem;
      `
 
     const BackToList = styled.p`
-        margin-left: 40px;
+        margin-left: 100px;
         margin-top: 30px;
         text-decoration: none;
         font-size: 1.5rem;

@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/curiositymugs/static/css/main.ef032616.css",
-    "main.js": "/curiositymugs/static/js/main.fd6a5beb.js",
+    "main.js": "/curiositymugs/static/js/main.b1dfb258.js",
     "static/js/787.294b8b4d.chunk.js": "/curiositymugs/static/js/787.294b8b4d.chunk.js",
     "static/media/rabbit_mug2.png": "/curiositymugs/static/media/rabbit_mug2.8714ccb6209117f4da9a.png",
+    "static/media/darkforest_cup.png": "/curiositymugs/static/media/darkforest_cup.e07c88e8349f1b03a5d5.png",
     "static/media/world_mug.png": "/curiositymugs/static/media/world_mug.7fa8002cfa250e38704b.png",
     "static/media/rabbit_mug1.png": "/curiositymugs/static/media/rabbit_mug1.1ca3ba3dee824eb01af7.png",
     "static/media/house_mug.png": "/curiositymugs/static/media/house_mug.26bc48ab8e2f8aa04e76.png",
     "static/media/tsunami_cup.png": "/curiositymugs/static/media/tsunami_cup.5f1778985a83846deae2.png",
     "static/media/pinkforest_cup.png": "/curiositymugs/static/media/pinkforest_cup.3a29b4785c00cfcda7bf.png",
-    "static/media/darkforest_cup.png": "/curiositymugs/static/media/darkforest_cup.fa675315299054cd8be6.png",
     "static/media/greenforest_cup.png": "/curiositymugs/static/media/greenforest_cup.c0f6efd77f4aa1b3b14e.png",
     "static/media/island_mug.png": "/curiositymugs/static/media/island_mug.68fa4c4243dd34eff600.png",
     "index.html": "/curiositymugs/index.html",
     "main.ef032616.css.map": "/curiositymugs/static/css/main.ef032616.css.map",
-    "main.fd6a5beb.js.map": "/curiositymugs/static/js/main.fd6a5beb.js.map",
+    "main.b1dfb258.js.map": "/curiositymugs/static/js/main.b1dfb258.js.map",
     "787.294b8b4d.chunk.js.map": "/curiositymugs/static/js/787.294b8b4d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef032616.css",
-    "static/js/main.fd6a5beb.js"
+    "static/js/main.b1dfb258.js"
   ]
 }

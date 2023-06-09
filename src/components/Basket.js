@@ -31,11 +31,15 @@ const Basket = ( { user, onRemoveItem } ) => {
         font-size: 1rem;
      `
 
-    const BackToList = styled.a`
+    const BackToList = styled.p`
         margin-left: 100px;
         margin-top: 30px;
         text-decoration: none;
         font-size: 1.5rem;
+    `
+
+    const BasketTotal = styled.p`
+        text-align: right;
     `
 
     const removeItem = ( itemToRemove ) => {
@@ -57,6 +61,14 @@ const Basket = ( { user, onRemoveItem } ) => {
         </li >
     ) );
 
+
+//    const itemPrices = user.basket.map(item => item.price);
+
+   const basketTotal = user.basket.reduce(function(accumulator, basketItem){
+    return accumulator + basketItem.price;
+   }, 0);
+
+
     return (
         <>
         <BackToList>
@@ -69,6 +81,11 @@ const Basket = ( { user, onRemoveItem } ) => {
                     { basketComponents }
                 </ul>
                 : <p>Basket Is Empty</p> }
+     
+        <BasketTotal>
+            <hr/>
+                Your Shopping Total: £ {basketTotal}
+        </BasketTotal>
         </Basketlist>
         </>
     );

@@ -15,7 +15,7 @@ const Header = ( { user } ) => {
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
     padding-left: 30px;
   `
 
@@ -23,14 +23,14 @@ const Header = ( { user } ) => {
     <Header>
         <HeaderGroup>
           <h1>Curiosity Mugs</h1>
-          <h3>Indulge in the Art of Exquisite Mugs and Cups</h3>
+          <h2>Indulge in the Art of Exquisite Mugs and Cups</h2>
         </HeaderGroup>
 
 
 
       <div id="user-info">
-        <h3>Welcome back { user.name }</h3>
-        <h4>You have { user.basket.length } items in your basket</h4>
+        <h3>Welcome back, { user.name }!</h3>
+        <h3>You have { user.basket.length } items in your basket</h3>
         <Link to="/basket">View Basket</Link>
 
       </div>

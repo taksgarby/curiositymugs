@@ -13,6 +13,7 @@ const Item = ({ item, user, onBasketAdd }) => {
     margin: 2rem;
     height: 300px;
     box-shadow: 2px 2px 4px grey;
+    border-radius: 5%;
   `
 
   const ItemPara = styled.p `

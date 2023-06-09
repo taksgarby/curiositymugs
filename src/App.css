@@ -11,7 +11,7 @@ h1{
 }
 
 body > div >  header  a {
-  color: skyblue;
+  color: white;
   text-decoration: none;
   font-weight: bolder;
 }
@@ -35,4 +35,5 @@ li > span > img {
 
 #user-info{
   padding-right: 30px;
+
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from "react-router-dom";
 
 const Basket = ( { user, onRemoveItem } ) => {
 
@@ -12,6 +13,7 @@ const Basket = ( { user, onRemoveItem } ) => {
         box-shadow: 4px 4px 4px 4px grey;
         border-radius: 10px;
         text-align: center;
+        font-size: 1.3rem;
     `
 
     const Button = styled.button `
@@ -21,6 +23,13 @@ const Basket = ( { user, onRemoveItem } ) => {
         border: 2px solid grey; 
         border-radius: 8px;
      `
+
+    const BackToList = styled.p`
+        margin-left: 40px;
+        margin-top: 30px;
+        text-decoration: none;
+        font-size: 1.5rem;
+    `
 
     const removeItem = ( itemToRemove ) => {
         const updatedUser = { ...user };
@@ -42,6 +51,10 @@ const Basket = ( { user, onRemoveItem } ) => {
     ) );
 
     return (
+        <>
+        <BackToList>
+            <Link to="/">Back to Mugs and Cups</Link>
+        </BackToList>
         <Basketlist>
             <h2>Your items: </h2>
             { user.basket.length > 0
@@ -50,6 +63,7 @@ const Basket = ( { user, onRemoveItem } ) => {
                 </ul>
                 : <p>Basket Is Empty</p> }
         </Basketlist>
+        </>
     );
 };
 

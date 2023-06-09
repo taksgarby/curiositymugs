@@ -26,17 +26,12 @@ const Header = ( { user } ) => {
           <h3>Indulge in the Art of Exquisite Mugs and Cups</h3>
         </HeaderGroup>
 
-      <nav>
-        <ul>
-          <li><Link to="/">View Stock</Link></li>
-        </ul>
 
 
-      </nav>
       <div id="user-info">
         <h3>Welcome back { user.name }</h3>
         <h4>You have { user.basket.length } items in your basket</h4>
-        <Link to="/basket">Go to Basket</Link>
+        <Link to="/basket">View Basket</Link>
 
       </div>
     </Header>

@@ -21,20 +21,32 @@ const Item = ({ item, user, onBasketAdd }) => {
   `
 
   const Button = styled.button `
-    background-color: white;
-    color: black;
+    background: #ee8572; 
+    color: #202020; 
     margin-left: 80px;
+    padding: 8px;
+    font-size: 1.1rem;
 
-    border: 2px solid grey; 
-    border-radius: 8px;
+    border: 2px solid #ee8572; 
+    border-radius: 15px;
     width: 200px;
 
   `
   
   const ItemInfo = styled.p `
     margin-left: 80px;
-  
+    margin-bottom: 7px;
+    color: #202020;
+    font-size: 1.1rem;  
   `
+
+  const PriceInfo = styled.p `
+  margin-left: 150px;
+  margin-top: 0;
+  color: #202020;
+  font-size: 1.1rem;
+
+`
 
   const onClick = () => {
     const updatedUser = { ...user };
@@ -47,9 +59,11 @@ const Item = ({ item, user, onBasketAdd }) => {
       <ItemImage src={require("../images/" + item.image)} alt="item" />
       <Button onClick={onClick}>Add To Basket</Button>
       <ItemInfo>
-      <p>{item.name}</p>
-      <p>£{item.price}</p>
+      {item.name} 
       </ItemInfo>
+      <PriceInfo>
+      £{item.price}
+      </PriceInfo>
     </StockItem>
   );
 };

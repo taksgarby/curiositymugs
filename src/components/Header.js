@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const Header = ( { user } ) => {
 
   const Header = styled.header`
-    background-color: green;
+    background: #347474; 
     color: white;
     display: flex;
     justify-content: space-between;

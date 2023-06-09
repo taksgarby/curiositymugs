@@ -5,11 +5,13 @@ const Basket = ( { user, onRemoveItem } ) => {
 
     const Basketlist = styled.div`
         width:80%;
-        margin: auto;
-        padding: 10px;
+        margin: 60px;
+        padding: 30px;
         background-color: lightyellow;
-        color: black;
+        color: #202020;
         box-shadow: 4px 4px 4px 4px grey;
+        border-radius: 10px;
+        text-align: center;
     `
 
     const Button = styled.button `

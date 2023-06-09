@@ -24,27 +24,28 @@ const Item = ({ item, user, onBasketAdd }) => {
     background: #ee8572; 
     color: #202020; 
     margin-left: 80px;
+    margin-right: 80px;
     padding: 8px;
     font-size: 1.1rem;
-
+    text-align: center;
     border: 2px solid #ee8572; 
     border-radius: 15px;
     width: 200px;
 
   `
   
-  const ItemInfo = styled.p `
-    margin-left: 80px;
+  const ItemInfo = styled.h3`
+    text-align: center;
     margin-bottom: 7px;
     color: #202020;
-    font-size: 1.1rem;  
+ 
   `
 
   const PriceInfo = styled.p `
-  margin-left: 150px;
-  margin-top: 0;
-  color: #202020;
-  font-size: 1.1rem;
+    text-align: center;
+    margin-top: 0;
+    color: #202020;
+    font-size: 1.1rem;
 
 `
 

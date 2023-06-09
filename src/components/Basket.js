@@ -31,7 +31,7 @@ const Basket = ( { user, onRemoveItem } ) => {
         font-size: 1rem;
      `
 
-    const BackToList = styled.p`
+    const BackToList = styled.a`
         margin-left: 100px;
         margin-top: 30px;
         text-decoration: none;

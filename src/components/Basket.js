@@ -72,7 +72,7 @@ const Basket = ( { user, onRemoveItem } ) => {
     return (
         <>
         <BackToList>
-            <Link to="/">Back to Mugs and Cups</Link>
+            <Link to="/curiositymugs">Back to Mugs and Cups</Link>
         </BackToList>
         <Basketlist>
             <h2>Your items: </h2>

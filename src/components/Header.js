@@ -31,7 +31,7 @@ const Header = ( { user } ) => {
       <div id="user-info">
         <h3>Welcome back, { user.name }!</h3>
         <h3>You have { user.basket.length } items in your basket</h3>
-        <Link to="/basket">View Basket</Link>
+        <Link to="/curiositymugs/basket">View Basket</Link>
 
       </div>
     </Header>

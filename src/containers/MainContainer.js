@@ -18,8 +18,8 @@ const MainContainer = () => {
       <Router>
       <Header user={user} />
       <Routes>
-      <Route path="/" element={ <ItemsList items={items} user={user} onBasketAdd={setUser} />} />
-      <Route path="/basket" element={<Basket user={user} onRemoveItem={setUser} />} />
+      <Route path="/curiositymugs" element={ <ItemsList items={items} user={user} onBasketAdd={setUser} />} />
+      <Route path="/curiositymugs/basket" element={<Basket user={user} onRemoveItem={setUser} />} />
       </Routes>
       </Router>
     );

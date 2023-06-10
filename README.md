@@ -4,3 +4,4 @@ I wanted to make a user-friendly e-commerce website. I chose mugs and cups becau
 Users can click "Add basket" button to store items they like in the shopping basket. The shopping basket can be edited using a delete button.
 
 ![Screenshot 2023-06-09 at 19 46 21](https://github.com/taksgarby/curiositymugs/assets/91882718/9c496e0a-11f7-4e36-86e2-7e2315a92bf4)
+![Screenshot 2023-06-09 at 21 33 27](https://github.com/taksgarby/curiositymugs/assets/91882718/134d76bb-2be1-4ced-b725-04ace308ba74)

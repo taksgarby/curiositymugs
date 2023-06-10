@@ -23,8 +23,14 @@ const Header = ( { user } ) => {
 
   return (
     <div className='header'>
+      <div className='header-contents'>
       <div className='shop-name'>
         Curiosity Mugs
+      </div>
+      <div className='basket'>
+        {user.basket.length} items in your basket.<br/>
+         <Link to="/curiositymugs/basket">View Basket</Link>
+      </div>
       </div>
     </div>
 

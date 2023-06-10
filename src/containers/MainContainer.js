@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import ItemsList from '../components/ItemsList';
 import storedItems from '../data/ShopItems';
 import Basket from '../components/Basket'
+// import '../styles/Container.css';
 
 const MainContainer = () => {
   const [user, setUser] = useState({

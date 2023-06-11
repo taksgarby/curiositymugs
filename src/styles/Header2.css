@@ -18,11 +18,11 @@
     font-family:'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 3rem;
+
     color: #115052;
     padding: 1rem;
     margin-left: 3rem;
-
+    font-size:10vw
 }
 
 .logos{

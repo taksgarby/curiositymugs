@@ -5,6 +5,7 @@ import ItemsList from '../components/ItemsList';
 import storedItems from '../data/ShopItems';
 import Basket from '../components/Basket'
 // import '../styles/Container.css';
+import Header2 from '../components/Header2';
 
 const MainContainer = () => {
   const [user, setUser] = useState({
@@ -17,7 +18,7 @@ const MainContainer = () => {
 
   return (
       <Router>
-      <Header user={user} />
+      <Header2 user={user} />
       <Routes>
       <Route path="/curiositymugs" element={ <ItemsList items={items} user={user} onBasketAdd={setUser} />} />
       <Route path="/curiositymugs/basket" element={<Basket user={user} onRemoveItem={setUser} />} />

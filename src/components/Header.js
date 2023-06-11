@@ -5,34 +5,34 @@ import '../styles/Header.css'
 
 const Header = ( { user } ) => {
 
-  // const Header = styled.header`
-  //   background: #347474; 
-  //   color: white;
-  //   display: flex;
-  //   justify-content: space-between;
+  const Header = styled.header`
+    background: #347474; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
 
-  // `
+  `
 
-  // const HeaderGroup = styled.hgroup `
-  //   display: flex;
-  //   flex-direction: column;
-  //   margin-left: 2rem;
-  //   margin-bottom: 0.7rem;
-  //   padding-left: 30px;
-  // `
+  const HeaderGroup = styled.hgroup `
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-bottom: 0.7rem;
+    padding-left: 30px;
+  `
 
   return (
-    <div className='header'>
-      <div className='header-contents'>
-      <div className='shop-name'>
+    <nav className='header'>
+      <ul className='header-contents'>
+      <li className='shop-name'>
         Curiosity Mugs
-      </div>
-      <div className='basket'>
+      </li>
+      <li className='basket'>
         {user.basket.length} items in your basket.<br/>
          <Link to="/curiositymugs/basket">View Basket</Link>
-      </div>
-      </div>
-    </div>
+      </li>
+      </ul>
+    </nav>
 
 
 

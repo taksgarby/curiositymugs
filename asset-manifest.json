@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/curiositymugs/static/css/main.a7409a4a.css",
-    "main.js": "/curiositymugs/static/js/main.12d1b88c.js",
+    "main.css": "/curiositymugs/static/css/main.a200e753.css",
+    "main.js": "/curiositymugs/static/js/main.04d71048.js",
     "static/js/787.43b1bf08.chunk.js": "/curiositymugs/static/js/787.43b1bf08.chunk.js",
+    "static/media/haunted_mansion.png": "/curiositymugs/static/media/haunted_mansion.7418d55623c0708645ba.png",
     "static/media/darkforest_cup.png": "/curiositymugs/static/media/darkforest_cup.e07c88e8349f1b03a5d5.png",
     "static/media/world_mug.png": "/curiositymugs/static/media/world_mug.7fa8002cfa250e38704b.png",
     "static/media/rabbit_mug1.png": "/curiositymugs/static/media/rabbit_mug1.1ca3ba3dee824eb01af7.png",
@@ -15,12 +16,12 @@
     "static/media/rabbit.png": "/curiositymugs/static/media/rabbit.3368cc918954d16ba3f8.png",
     "static/media/rainy_tokyo.jpg": "/curiositymugs/static/media/rainy_tokyo.a66e7e503737a77d1498.jpg",
     "index.html": "/curiositymugs/index.html",
-    "main.a7409a4a.css.map": "/curiositymugs/static/css/main.a7409a4a.css.map",
-    "main.12d1b88c.js.map": "/curiositymugs/static/js/main.12d1b88c.js.map",
+    "main.a200e753.css.map": "/curiositymugs/static/css/main.a200e753.css.map",
+    "main.04d71048.js.map": "/curiositymugs/static/js/main.04d71048.js.map",
     "787.43b1bf08.chunk.js.map": "/curiositymugs/static/js/787.43b1bf08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7409a4a.css",
-    "static/js/main.12d1b88c.js"
+    "static/css/main.a200e753.css",
+    "static/js/main.04d71048.js"
   ]
 }

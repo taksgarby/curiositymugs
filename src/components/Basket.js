@@ -14,6 +14,7 @@ const Basket = ( { user, onRemoveItem } ) => {
     color: #202020;
     background-color: lightyellow;
     margin: 3rem;
+    font-size: 2rem;
   `
 
     // const Basketlist = styled.div`
@@ -74,7 +75,6 @@ const Basket = ( { user, onRemoveItem } ) => {
     ) );
 
 
-//    const itemPrices = user.basket.map(item => item.price);
 
    const basketTotal = user.basket.reduce(function(accumulator, basketItem){
     return accumulator + basketItem.price;
@@ -90,7 +90,7 @@ const Basket = ( { user, onRemoveItem } ) => {
                 ? <ul >
                     { basketComponents }
                 </ul>
-                : <p>Basket Is Empty</p> }
+                : <p>Your Basket Is Empty</p> }
      
         <BasketTotal>
             <hr/>

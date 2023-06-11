@@ -27,7 +27,7 @@ const Header = ( { user } ) => {
     Wrapper: styled.nav`
     flex: 1;
     align-self: flex-start;
-    padding: 1rem 3rem;
+    padding: 0.7rem 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,6 +56,12 @@ const Header = ( { user } ) => {
 
   };
 
+  const linkStyle = {
+    margin: "1rem",
+    textDecoration: "none",
+    color: 'white'
+  };
+
   const MobileNavbar = {
     Wrapper: styled(Navbar.Wrapper)`
       align-self: flex-end;
@@ -65,14 +71,12 @@ const Header = ( { user } ) => {
     Items: styled(Navbar.Items)`
       flex: 1;
       padding: 0 2rem;
-  
       justify-content: space-around;
     `,
     Item: styled(Navbar.Item)`
       display: flex;
       flex-direction: column;
       align-items: center;
-  
       font-size: 1.2rem;
     `,
     Icon: styled.span`
@@ -88,17 +92,16 @@ const Header = ( { user } ) => {
           <MobileNavbar.Items>
             <MobileNavbar.Item>
 
-              Home
+              <Link to="/curiositymugs" style={linkStyle}>Home</Link>
             </MobileNavbar.Item>
             <MobileNavbar.Item>
 
-              <Link to="/curiositymugs/basket"><FeatherIcon icon="shopping-cart" /></Link>
+              <Link to="/curiositymugs/basket" style={linkStyle}><FeatherIcon icon="shopping-cart" /></Link>
             </MobileNavbar.Item>
             <MobileNavbar.Item>
-              {/* <MobileNavbar.Icon>
-                <User size={16} />
-              </MobileNavbar.Icon> */}
+            <Link to="/curiositymugs/basket" style={linkStyle}>
               Items: { user.basket.length }
+            </Link>
             </MobileNavbar.Item>
           </MobileNavbar.Items>
         </MobileNavbar.Wrapper>
@@ -109,9 +112,13 @@ const Header = ( { user } ) => {
         <Navbar.Wrapper>
           <Navbar.Logo>Curiosity Mugs</Navbar.Logo>
           <Navbar.Items>
-            <Navbar.Item>Home</Navbar.Item>
             <Navbar.Item>
-                <Link to="/curiositymugs/basket" style={{ textDecoration: 'none' }}>
+            <Link to="/curiositymugs" style={linkStyle}>
+              Home
+            </Link>
+            </Navbar.Item>
+            <Navbar.Item>
+                <Link to="/curiositymugs/basket" style={linkStyle}>
                 Basket
           
                 </Link>

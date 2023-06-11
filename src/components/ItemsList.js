@@ -1,6 +1,7 @@
 import React from 'react';
 import Item from './Item';
 import styled from 'styled-components';
+import Rabbit from '../images/rabbit.png';
 
 const ItemsList = ({ items, user, onBasketAdd }) => {
 
@@ -8,11 +9,16 @@ const ItemsList = ({ items, user, onBasketAdd }) => {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background: white;
   `
   const itemComponents = items.map(item => (
     <Item key={item.id} item={item} user={user} onBasketAdd={onBasketAdd} />
   ));
 
+  const TopSection = styled.div`
+    background: #F6EBDA;
+    margin: 0;
+  `
   const WelcomeText = styled.h1`
     padding: 1rem;
     text-align: center;
@@ -26,14 +32,30 @@ const ItemsList = ({ items, user, onBasketAdd }) => {
     font-family: "Roboto";
     font-style: italic;
     padding-bottom: 1rem;
-
+    
   `
+  const TopImage = styled.div`
+    background-image: url(${Rabbit});
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  `
+  
+  
+
   return (
     <>
+    <TopSection>
+    <TopImage src={require("../images/rabbit.png")} alt="rabbit"/>
     <WelcomeText>Welcome to Curiosity Mugs </WelcomeText>
     <WelcomeSubText> We invite you to indulge in the art of exquisite mugs and cups</WelcomeSubText>
      
-   
+    </TopSection>
     <ItemList>
 
       {itemComponents}

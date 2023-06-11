@@ -10,7 +10,7 @@ const Basket = ( { user, onRemoveItem } ) => {
     justify-content: space-around;
     flex-direction: column;
     padding: 2rem;
-    
+    width: 90%;
     color: #202020;
     background-color: lightyellow;
     margin: 0;

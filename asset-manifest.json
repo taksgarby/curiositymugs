@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/curiositymugs/static/css/main.ca510ece.css",
-    "main.js": "/curiositymugs/static/js/main.dfaa4082.js",
+    "main.js": "/curiositymugs/static/js/main.bcc5cc96.js",
     "static/js/787.43b1bf08.chunk.js": "/curiositymugs/static/js/787.43b1bf08.chunk.js",
     "static/media/rabbit_mug2.png": "/curiositymugs/static/media/rabbit_mug2.8714ccb6209117f4da9a.png",
     "static/media/darkforest_cup.png": "/curiositymugs/static/media/darkforest_cup.e07c88e8349f1b03a5d5.png",
@@ -14,11 +14,11 @@
     "static/media/island_mug.png": "/curiositymugs/static/media/island_mug.68fa4c4243dd34eff600.png",
     "index.html": "/curiositymugs/index.html",
     "main.ca510ece.css.map": "/curiositymugs/static/css/main.ca510ece.css.map",
-    "main.dfaa4082.js.map": "/curiositymugs/static/js/main.dfaa4082.js.map",
+    "main.bcc5cc96.js.map": "/curiositymugs/static/js/main.bcc5cc96.js.map",
     "787.43b1bf08.chunk.js.map": "/curiositymugs/static/js/787.43b1bf08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca510ece.css",
-    "static/js/main.dfaa4082.js"
+    "static/js/main.bcc5cc96.js"
   ]
 }

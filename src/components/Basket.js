@@ -5,20 +5,32 @@ import { Link } from "react-router-dom";
 const Basket = ( { user, onRemoveItem } ) => {
 
     const Basketlist = styled.div`
-        width:60%;
-        margin-top: 60px;
-        margin-left: 150px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        padding-left: 100px;
-        padding-right: 100px;
-        background-color: lightyellow;
-        color: #202020;
-        box-shadow: 4px 4px 4px 4px grey;
-        border-radius: 10px;
-        text-align: center;
-        font-size: 1.5rem;
-    `
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2rem;
+    width:60%;
+    color: #202020;
+    background-color: lightyellow;
+    margin: 3rem;
+  `
+
+    // const Basketlist = styled.div`
+    //     width:60%;
+    //     margin-top: 60px;
+    //     margin-left: 150px;
+    //     padding-top: 30px;
+    //     padding-bottom: 30px;
+    //     padding-left: 100px;
+    //     padding-right: 100px;
+    //     background-color: lightyellow;
+    //     color: #202020;
+    //     box-shadow: 4px 4px 4px 4px grey;
+    //     border-radius: 10px;
+    //     text-align: center;
+    //     font-size: 1.5rem;
+    // `
 
     const Button = styled.button `
         background-color: white;
@@ -71,9 +83,7 @@ const Basket = ( { user, onRemoveItem } ) => {
 
     return (
         <>
-        <BackToList>
-            <Link to="/curiositymugs">Back to Mugs and Cups</Link>
-        </BackToList>
+
         <Basketlist>
             <h2>Your items: </h2>
             { user.basket.length > 0

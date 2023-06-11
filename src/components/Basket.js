@@ -12,7 +12,6 @@ const Basket = ( { user, onRemoveItem } ) => {
     padding: 2rem;
     width: 90%;
     color: #202020;
-    background-color: lightyellow;
     margin: 0;
     font-size: 1rem;
   `
@@ -73,7 +72,7 @@ const Basket = ( { user, onRemoveItem } ) => {
                 : <p>Your Basket Is Empty</p> }
      
         <BasketTotal>
-            <hr/>
+        
                 Your Shopping Total: £ {basketTotal}
         </BasketTotal>
         </Basketlist>

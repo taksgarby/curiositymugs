@@ -13,7 +13,7 @@ const Basket = ( { user, onRemoveItem } ) => {
     width: 90%;
     color: #202020;
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
   `
 
 
@@ -21,12 +21,13 @@ const Basket = ( { user, onRemoveItem } ) => {
     const Button = styled.button `
         background-color: white;
         color: black;
-        margin-top: 0;
+        margin-top: 10px;
+        margin-left: 15px;
         padding: 10px;
         margin-bottom: 10px;
         border: 2px solid grey; 
         border-radius: 8px;
-        font-size: 1rem;
+        font-size: 1.2rem;
      `
 
 
@@ -44,12 +45,14 @@ const Basket = ( { user, onRemoveItem } ) => {
 
     const basketComponents = user.basket.map( item => (
         <li>
-            <hr />
+        
             <span>
                 { item.name } £{ item.price }
-                <img src={ require( "../images/" + item.image ) } alt="item" />
+                <img src={ require( "../images/" + item.image )} alt="item" style={{margin: 15}} />
             </span>
+               
             <Button onClick={ () => removeItem( item ) }>Remove</Button>
+            <hr />
         </li >
     ) );
 

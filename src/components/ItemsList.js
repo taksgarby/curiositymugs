@@ -46,7 +46,14 @@ const ItemsList = ({ items, user, onBasketAdd }) => {
     margin-top: 2rem;
   `
   
-  
+  const ItemIntro = styled.h1`
+    color: #202020;
+    background: white;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    `
 
   return (
     <>
@@ -56,8 +63,9 @@ const ItemsList = ({ items, user, onBasketAdd }) => {
     <WelcomeSubText> We invite you to indulge in the art of exquisite mugs and cups</WelcomeSubText>
      
     </TopSection>
+    <ItemIntro>Our products</ItemIntro>
     <ItemList>
-
+   
       {itemComponents}
     </ItemList>
     </>

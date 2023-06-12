@@ -28,7 +28,7 @@ const ItemsList = ({ items, user, onBasketAdd }) => {
   const WelcomeSubText = styled.h1`
    
     text-align: center;
-    color: #ee7272;
+    color: #e34d4d;
     font-family: "Roboto";
     font-style: italic;
     padding-bottom: 1rem;

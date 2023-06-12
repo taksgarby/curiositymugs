@@ -26,7 +26,7 @@ const Item = ({ item, user, onBasketAdd }) => {
     margin-left: 80px;
     margin-right: 80px;
     padding: 8px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     text-align: center;
     border: 2px solid #ee8572; 
     border-radius: 15px;
@@ -38,14 +38,14 @@ const Item = ({ item, user, onBasketAdd }) => {
     text-align: center;
     margin-bottom: 7px;
     color: #202020;
- 
+    font-size: 1.5rem;
   `
 
   const PriceInfo = styled.p`
     text-align: center;
     margin-top: 0;
     color: #202020;
-    font-size: 1.1rem;
+    font-size: 1.7rem;
 `
 
   const onClick = () => {

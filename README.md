@@ -1,5 +1,7 @@
 # CuriosityMugs
 
+https://taksgarby.github.io/curiositymugs/
+
 I wanted to make a user-friendly e-commerce website. I chose mugs and cups because 99% of my friends love coffee breaks. All the mugs and cups are my imaginary creation with the assistance of AI. My favourites are forest-themed portable cups. 
 Users can click "Add basket" button to store items they like in the shopping basket. The shopping basket can be edited using a delete button.
 

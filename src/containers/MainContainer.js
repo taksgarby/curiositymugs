@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import ItemsList from '../components/ItemsList';
 import storedItems from '../data/ShopItems';
 import Basket from '../components/Basket'
+import Form from '../components/Form';
 // import '../styles/Container.css';
 
 
@@ -22,6 +23,7 @@ const MainContainer = () => {
       <Routes>
       <Route path="/curiositymugs" element={ <ItemsList items={items} user={user} onBasketAdd={setUser} />} />
       <Route path="/curiositymugs/basket" element={<Basket user={user} onRemoveItem={setUser} />} />
+      <Route path="/curiositymugs/form" element={<Form user={user} onRemoveItem={setUser} />} />
       </Routes>
       </Router>
     );

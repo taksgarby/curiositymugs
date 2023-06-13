@@ -91,11 +91,9 @@ const Header = ( { user } ) => {
         <MobileNavbar.Wrapper>
           <MobileNavbar.Items>
             <MobileNavbar.Item>
-
               <Link to="/curiositymugs" style={linkStyle}>Home</Link>
             </MobileNavbar.Item>
             <MobileNavbar.Item>
-
               <Link to="/curiositymugs/basket" style={linkStyle}><FeatherIcon icon="shopping-cart" /></Link>
             </MobileNavbar.Item>
             <MobileNavbar.Item>
@@ -104,8 +102,7 @@ const Header = ( { user } ) => {
             </Link>
             </MobileNavbar.Item>
           </MobileNavbar.Items>
-        </MobileNavbar.Wrapper>
-       
+        </MobileNavbar.Wrapper>      
        
       ) : (
         
@@ -119,8 +116,7 @@ const Header = ( { user } ) => {
             </Navbar.Item>
             <Navbar.Item>
                 <Link to="/curiositymugs/basket" style={linkStyle}>
-                Basket
-          
+                Basket       
                 </Link>
             </Navbar.Item>
             <Navbar.Item>Items: { user.basket.length }</Navbar.Item>
@@ -129,9 +125,6 @@ const Header = ( { user } ) => {
   
       )}
            </>
-
-
-
   );
 };
 

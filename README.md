@@ -6,8 +6,10 @@ I wanted to make a user-friendly e-commerce website. I chose mugs and cups becau
 Users can click "Add basket" button to store items they like in the shopping basket. The shopping basket can be edited using a delete button.
 
 11/06/23 I added mobile responsive features.<br/>
-Next step: To create a form where users can submit what sort of mugs they would like to see on my shop. Their submission will be sent to my email account. 
+14/06/23 Added "bespoke" form page. When a user submit a form, I will receive the form input via email. </br>
 
-![Screenshot 2023-06-12 at 13 35 30](https://github.com/taksgarby/curiositymugs/assets/91882718/23936d29-dc0b-40a2-b687-e763568ef9e5)
+Next Step: Adding "sort by category"
+
+![Screenshot 2023-06-14 at 15 59 54](https://github.com/taksgarby/curiositymugs/assets/91882718/031c010a-7bc5-489c-9f1e-edddf8c84506)
 
 ![Screenshot 2023-06-12 at 13 33 33](https://github.com/taksgarby/curiositymugs/assets/91882718/21c68fb1-c33e-42a8-8e9a-73618c64809d)

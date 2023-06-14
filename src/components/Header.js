@@ -119,7 +119,7 @@ const Header = ( { user } ) => {
                 Basket       
                 </Link>
             </Navbar.Item>
-            <Navbar.Item>Items: { user.basket.length }</Navbar.Item>
+            <Navbar.Item><Link to="/curiositymugs/form" style={linkStyle}>Bespoke</Link></Navbar.Item>
           </Navbar.Items>
         </Navbar.Wrapper>
   

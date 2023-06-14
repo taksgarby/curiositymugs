@@ -97,8 +97,8 @@ const Header = ( { user } ) => {
               <Link to="/curiositymugs/basket" style={linkStyle}><FeatherIcon icon="shopping-cart" /></Link>
             </MobileNavbar.Item>
             <MobileNavbar.Item>
-            <Link to="/curiositymugs/basket" style={linkStyle}>
-              Items: { user.basket.length }
+            <Link to="/curiositymugs/form" style={linkStyle}>
+              Bespoke
             </Link>
             </MobileNavbar.Item>
           </MobileNavbar.Items>

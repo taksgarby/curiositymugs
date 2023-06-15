@@ -97,7 +97,7 @@ const Header = ( { user } ) => {
               <Link to="/curiositymugs/basket" style={linkStyle}><FeatherIcon icon="shopping-cart" /></Link>
             </MobileNavbar.Item>
             <MobileNavbar.Item>
-            <Link to="/curiositymugs/form" style={linkStyle}>
+            <Link to="/curiositymugs/bespoke" style={linkStyle}>
               Bespoke
             </Link>
             </MobileNavbar.Item>
@@ -119,7 +119,7 @@ const Header = ( { user } ) => {
                 Basket       
                 </Link>
             </Navbar.Item>
-            <Navbar.Item><Link to="/curiositymugs/form" style={linkStyle}>Bespoke</Link></Navbar.Item>
+            <Navbar.Item><Link to="/curiositymugs/bespoke" style={linkStyle}>Bespoke</Link></Navbar.Item>
           </Navbar.Items>
         </Navbar.Wrapper>
   

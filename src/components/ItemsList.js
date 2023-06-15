@@ -11,6 +11,7 @@ const ItemsList = ({ items, user, onBasketAdd }) => {
     flex-wrap: wrap;
     justify-content: space-around;
     background: white;
+    font-family: "Nunito Sans";
   `
   const itemComponents = items.map(item => (
     <Item key={item.id} item={item} user={user} onBasketAdd={onBasketAdd} />
@@ -27,11 +28,11 @@ const ItemsList = ({ items, user, onBasketAdd }) => {
   `
   const WelcomeText = styled.h1`
     color: #115052;
-    font-family: "Helvetica Neue";
+    font-family: "Nunito Sans";
   `
   const WelcomeSubText = styled.h1`
     color: #e34d4d;
-    font-family: "Roboto";
+    font-family: "Nurito Sans";
     font-style: italic;
   `
   const UserInfo =styled.p`
@@ -39,23 +40,14 @@ const ItemsList = ({ items, user, onBasketAdd }) => {
     text-align: right;
     font-size: 1.4rem;
     vertical-align: bottom;
+    font-family: "Open Sans";
   `
   const LinkStyle = {
     textDecoration: "none",
     color: "#e34d4d"
 
   };
-  // const TopImage = styled.div`
-  //   background-image: url(${TopImg});
-  //   height: 200px;
-  //   width: 200px;
-  //   border-radius: 50%;
-  //   background-repeat: no-repeat;
-  //   display: block;
-  //   margin-left: auto;
-  //   margin-right: auto;
-  //   margin-top: 2rem;
-  // `
+
 
  const TopImage = styled.img`
    width: 180px; /**/
@@ -76,7 +68,7 @@ const ItemsList = ({ items, user, onBasketAdd }) => {
     text-align: center;
     margin-top: 1rem;
     padding-top: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Nunito Sans";
     `
 
   return (

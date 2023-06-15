@@ -26,12 +26,12 @@ const Item = ({ item, user, onBasketAdd }) => {
     margin-left: 80px;
     margin-right: 80px;
     padding: 8px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     border: 2px solid #ee8572; 
     border-radius: 15px;
     width: 200px;
-
+    font-family: "Open Sans";
   `
   
   const ItemInfo = styled.h3`

@@ -19,7 +19,7 @@ const Bespoke = () => {
   `
   const WelcomeText = styled.h1`
     color: #115052;
-    font-family: "Helvetica Neue";
+    font-family: "Nunito Sans";
   `
 
   const BespokeText =styled.p`
@@ -71,7 +71,8 @@ const Bespoke = () => {
     <TopTexts>
     <WelcomeText>Welcome to Our Bespoke Service </WelcomeText>
     <BespokeText>
-    Imagine starting your day with a mug that reflects your unique taste.
+    Imagine starting your day with a mug that reflects your unique taste.<br/>
+    Share your ideas with us, and we will make them into a reality! 
     </BespokeText>
     <BespokeLink> 
     <Link to="/curiositymugs/bespokesample" style={LinkStyle}>Visit sample page</Link> 

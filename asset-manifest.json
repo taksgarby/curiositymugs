@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/curiositymugs/static/css/main.bdaae7af.css",
-    "main.js": "/curiositymugs/static/js/main.1e9af6f4.js",
+    "main.css": "/curiositymugs/static/css/main.d1c110c0.css",
+    "main.js": "/curiositymugs/static/js/main.6f671c5f.js",
     "static/js/787.43b1bf08.chunk.js": "/curiositymugs/static/js/787.43b1bf08.chunk.js",
     "static/media/haunted_mansion.png": "/curiositymugs/static/media/haunted_mansion.7418d55623c0708645ba.png",
     "static/media/sad_mug.png": "/curiositymugs/static/media/sad_mug.43044b175c27d8b6f666.png",
@@ -13,18 +13,20 @@
     "static/media/tsunami_cup.png": "/curiositymugs/static/media/tsunami_cup.bac8d947eacf681059d1.png",
     "static/media/pinkforest_cup.png": "/curiositymugs/static/media/pinkforest_cup.d9cb7b5b38ae086bd36e.png",
     "static/media/greenforest_cup.png": "/curiositymugs/static/media/greenforest_cup.0781384e7ad275763deb.png",
+    "static/media/oil_mug.png": "/curiositymugs/static/media/oil_mug.7eb778ec0e93408dc779.png",
     "static/media/modern_art_yellow.png": "/curiositymugs/static/media/modern_art_yellow.a7af17fb958ccbba3627.png",
     "static/media/island_mug.png": "/curiositymugs/static/media/island_mug.a8842815bf68a6ae3da0.png",
     "static/media/journey_mug.png": "/curiositymugs/static/media/journey_mug.925842797f6741285afb.png",
+    "static/media/bespoke_sample.png": "/curiositymugs/static/media/bespoke_sample.ba4c639030494f2685cd.png",
     "static/media/TopImg.png": "/curiositymugs/static/media/TopImg.46a7e5439c5d8b218b9e.png",
     "static/media/rainy_tokyo.jpg": "/curiositymugs/static/media/rainy_tokyo.a66e7e503737a77d1498.jpg",
     "index.html": "/curiositymugs/index.html",
-    "main.bdaae7af.css.map": "/curiositymugs/static/css/main.bdaae7af.css.map",
-    "main.1e9af6f4.js.map": "/curiositymugs/static/js/main.1e9af6f4.js.map",
+    "main.d1c110c0.css.map": "/curiositymugs/static/css/main.d1c110c0.css.map",
+    "main.6f671c5f.js.map": "/curiositymugs/static/js/main.6f671c5f.js.map",
     "787.43b1bf08.chunk.js.map": "/curiositymugs/static/js/787.43b1bf08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdaae7af.css",
-    "static/js/main.1e9af6f4.js"
+    "static/css/main.d1c110c0.css",
+    "static/js/main.6f671c5f.js"
   ]
 }

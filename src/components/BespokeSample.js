@@ -22,7 +22,7 @@ const BespokeSample = () => {
 
    
       <Card.Text class="project-text">
-       Prompt: "A mug that produces oil"
+       Requested: "A mug that produces oil"
         </Card.Text>
 
 

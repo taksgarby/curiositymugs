@@ -45,8 +45,10 @@ const RequestForm = () => {
             <input type="text" name="user_name" id='text-input' placeholder="Please enter your name" required/>
             <label>Your Email</label>
             <input type="email" name="user_email" id='text-input' placeholder='Please enter your email address' required/>
-            <label>Give us some details about your mug ideas</label>
-            <textarea type="text" name="message" cols='30' rows='10' id='text-input'  required/>
+            <label>What kind of mugs would you like?</label>
+            <textarea type="text" name="message" cols='30' rows='10' id='text-input'  
+             placeholder='For example: "Journey to the center of the earth" themed mug.'
+            required/>
             {/* <div class="send-button"> */}
             <div className="button-container">
             <div className="center">

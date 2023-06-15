@@ -17,6 +17,7 @@ const Bespoke = () => {
     flex-flow: row wrap;
     justify-content: space-evenly;
     padding-top: 2rem;
+    
   `
   const WelcomeText = styled.h1`
     color: #115052;

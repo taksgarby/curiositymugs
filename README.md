@@ -13,3 +13,5 @@ Next Step: Adding "sort by category"
 ![Screenshot 2023-06-14 at 15 59 54](https://github.com/taksgarby/curiositymugs/assets/91882718/031c010a-7bc5-489c-9f1e-edddf8c84506)
 
 ![Screenshot 2023-06-12 at 13 33 33](https://github.com/taksgarby/curiositymugs/assets/91882718/21c68fb1-c33e-42a8-8e9a-73618c64809d)
+
+![form](https://github.com/taksgarby/curiositymugs/assets/91882718/e44d893e-8265-4b78-9ad4-8249537d0168)

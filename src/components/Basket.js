@@ -48,7 +48,7 @@ const Basket = ( { user, onRemoveItem } ) => {
         
             <span>
                 { item.name } £{ item.price }
-                <img src={ require( "../images/" + item.image )} alt="item" style={{margin: 15}} />
+                <img src={ require( "../images/" + item.image )} alt="item" style={{margin: 15, width:100, height:100}} />
             </span>
                
             <Button onClick={ () => removeItem( item ) }>Remove</Button>

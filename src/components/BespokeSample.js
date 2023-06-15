@@ -17,7 +17,7 @@ const BespokeSample = () => {
     <Card.Body>
       <Card.Title className="text-center">Mug for E.G.</Card.Title>
       <div class="img5">
-      <img src={Oil_mug} />
+      <img src={Oil_mug} alt="oil mug image"/>
       </div>
 
    

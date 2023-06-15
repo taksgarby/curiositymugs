@@ -1,7 +1,5 @@
 import React from 'react';
-import Item from './Item';
 import styled from 'styled-components';
-import TopImg from '../images/TopImg.png';
 import { Link } from "react-router-dom";
 import Bespoke_sample from '../images/bespoke_sample.png';
 import RequestForm from './RequestForm';

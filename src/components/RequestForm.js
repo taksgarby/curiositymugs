@@ -37,7 +37,7 @@ const RequestForm = () => {
     
     return ( 
         <>
-        <div className="form-wrapper">
+ 
           <div class="form">
             <Form ref={form} onSubmit={sendEmail}>
             <p class="form-text">Please let us know what kind of mugs you would like to see, and we will create them.</p>
@@ -61,7 +61,7 @@ const RequestForm = () => {
 
            </Form>
         </div>   
-        </div>  
+  
        </>
      );
 }

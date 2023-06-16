@@ -1,27 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
 
-/* body {
-  margin: 0;
-  padding: 0;
-} */
 
 * {
   box-sizing: border-box;
+
 }
 
 
 
 form {
   display: block;
-  background-color: #fff;
-  box-shadow: 1px 1px 3px 2px #ddd;
   margin: 40px auto;
   max-height: 110vh;
   max-width: 90vw;
   padding: 25px 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: center;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 2px #ddd;
+
 }
+
 
 .form-text {
   font-size: 1.5rem;
@@ -44,10 +43,11 @@ textarea {
   font-family: "verdana";
   background-color: #f3f3f3;
   border: 1px solid #ddd;
-  color: black;
+  color: black; 
   opacity: 1;
- font-size: 1.1rem;
+  font-size: 1.1rem;
 }
+
 
 ::-moz-placeholder {
   opacity: 1;
@@ -60,17 +60,6 @@ input::placeholder {
 }
 
 
-/* 
-.submit-button {
-  height: 30px;
-  width: 100px;
-  align-items: center;
-  border: 1px solid #ddd;
-  background-color: #59bd8b;
-  color: white;
-  cursor: pointer;
-} 
- */
 
  .send-button {
   margin-top: 1rem;

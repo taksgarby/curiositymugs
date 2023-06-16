@@ -53,7 +53,11 @@ const Bespoke = () => {
    margin-left: 2rem;
  `
 
-
+ const BespokeWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ `
   
 //   const FormIntro = styled.h1`
 //     color: #202020;
@@ -66,8 +70,8 @@ const Bespoke = () => {
 
   return (
     <>
+    <BespokeWrapper>    
     <TopSection>
-
     <TopTexts>
     <WelcomeText>Welcome to Our Bespoke Service </WelcomeText>
     <BespokeText>
@@ -81,9 +85,9 @@ const Bespoke = () => {
     </TopTexts>
     <TopImage src={require("../images/bespoke_sample.png")} alt="bespoke_sample"/>
     </TopSection>
+    <RequestForm/>
+    </BespokeWrapper>
 
-    {/* <FormIntro>Form</FormIntro> */}
-<RequestForm/>
     </>
   );
 };

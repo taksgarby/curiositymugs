@@ -9,7 +9,8 @@ Users can click "Add basket" button to store items they like in the shopping bas
 14/06/23 Added "bespoke" form page. When a user submit a form, I will receive the form input via email. </br>
 15/0623 Added "bespoke sample" page</br>
 
-Next Step: Adding "sort by category"
+Next Step: Adding "sort by category" </br>
+Next Step: Adding testing
 
 ![Screenshot 2023-06-14 at 15 59 54](https://github.com/taksgarby/curiositymugs/assets/91882718/031c010a-7bc5-489c-9f1e-edddf8c84506)
 

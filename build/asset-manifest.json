@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/curiositymugs/static/css/main.040a6963.css",
-    "main.js": "/curiositymugs/static/js/main.c0573864.js",
+    "main.css": "/curiositymugs/static/css/main.786cdde6.css",
+    "main.js": "/curiositymugs/static/js/main.d2d8fdf9.js",
     "static/js/787.43b1bf08.chunk.js": "/curiositymugs/static/js/787.43b1bf08.chunk.js",
     "static/media/haunted_mansion.png": "/curiositymugs/static/media/haunted_mansion.7418d55623c0708645ba.png",
     "static/media/sad_mug.png": "/curiositymugs/static/media/sad_mug.43044b175c27d8b6f666.png",
@@ -19,15 +19,16 @@
     "static/media/journey_mug.png": "/curiositymugs/static/media/journey_mug.925842797f6741285afb.png",
     "static/media/wonderland_mug.png": "/curiositymugs/static/media/wonderland_mug.8f8a1fdc49a956e30be5.png",
     "static/media/bespoke_sample.png": "/curiositymugs/static/media/bespoke_sample.ba4c639030494f2685cd.png",
+    "static/media/clock_mug.png": "/curiositymugs/static/media/clock_mug.c8e6b26ba033f095543b.png",
     "static/media/TopImg.png": "/curiositymugs/static/media/TopImg.46a7e5439c5d8b218b9e.png",
     "static/media/rainy_tokyo.jpg": "/curiositymugs/static/media/rainy_tokyo.a66e7e503737a77d1498.jpg",
     "index.html": "/curiositymugs/index.html",
-    "main.040a6963.css.map": "/curiositymugs/static/css/main.040a6963.css.map",
-    "main.c0573864.js.map": "/curiositymugs/static/js/main.c0573864.js.map",
+    "main.786cdde6.css.map": "/curiositymugs/static/css/main.786cdde6.css.map",
+    "main.d2d8fdf9.js.map": "/curiositymugs/static/js/main.d2d8fdf9.js.map",
     "787.43b1bf08.chunk.js.map": "/curiositymugs/static/js/787.43b1bf08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.040a6963.css",
-    "static/js/main.c0573864.js"
+    "static/css/main.786cdde6.css",
+    "static/js/main.d2d8fdf9.js"
   ]
 }

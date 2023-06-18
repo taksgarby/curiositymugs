@@ -20,7 +20,7 @@ const BespokeSample = () => {
     <Card style={{ width: '23rem' }}>
     <Card.Body>
       <Card.Title className="text-center">Mug for E.G.</Card.Title>
-      <div class="img5">
+      <div class="img1">
       <img src={Oil_mug} alt="oil mug image"/>
       </div>
       <Card.Text class="project-text">
@@ -34,7 +34,7 @@ const BespokeSample = () => {
     <Card style={{ width: '23rem' }}>
     <Card.Body>
       <Card.Title className="text-center">Mug for S.Q.</Card.Title>
-      <div class="img5">
+      <div class="img2">
       <img src={Wonderland_mug} alt="wonderland mug image"/>
       </div>
       <Card.Text class="project-text">
@@ -52,7 +52,7 @@ const BespokeSample = () => {
     <Card style={{ width: '23rem' }}>
     <Card.Body>
       <Card.Title className="text-center">Mug for T.G.</Card.Title>
-      <div class="img5">
+      <div class="img2">
       <img src={Clock_mug} alt="clock mug image"/>
       </div>
       <Card.Text class="project-text">
@@ -64,7 +64,7 @@ const BespokeSample = () => {
       </Card.Body>
     </Card>
     </div>
-    
+
   </div>
   </>
      );

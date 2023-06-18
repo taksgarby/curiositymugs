@@ -59,14 +59,6 @@ const Bespoke = () => {
     justify-content: center;
  `
   
-//   const FormIntro = styled.h1`
-//     color: #202020;
-//     background: white;
-//     text-align: center;
-//     margin-top: 1rem;
-//     padding-top: 1rem;
-//     font-family: Arial, Helvetica, sans-serif;
-//     `
 
   return (
     <>

@@ -5,7 +5,6 @@ import ItemsList from '../components/ItemsList';
 import storedItems from '../data/ShopItems';
 import Basket from '../components/Basket'
 import RequestForm from '../components/RequestForm';
-import Form2 from '../components/Form2';
 import Bespoke from '../components/Bespoke';
 import BespokeSample from '../components/BespokeSample';
 
@@ -26,7 +25,6 @@ const MainContainer = () => {
       <Route path="/curiositymugs" element={ <ItemsList items={items} user={user} onBasketAdd={setUser} />} />
       <Route path="/curiositymugs/basket" element={<Basket user={user} onRemoveItem={setUser} />} />
       <Route path="/curiositymugs/form" element={<RequestForm user={user} onRemoveItem={setUser} />} />
-      <Route path="/curiositymugs/form2" element={<Form2 user={user} onRemoveItem={setUser} />} />
       <Route path="/curiositymugs/bespoke" element={<Bespoke />} />
       <Route path="/curiositymugs/bespokesample" element={<BespokeSample />} />
       </Routes>

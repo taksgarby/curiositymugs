@@ -79,7 +79,7 @@ const ItemsList = ({ items, user, onBasketAdd }) => {
     <WelcomeText>Welcome to Curiosity Mugs </WelcomeText>
     <WelcomeSubText> We invite you to indulge in the art of exquisite mugs and cups</WelcomeSubText>
 
-    <UserInfo>You have { user.basket.length } items in your <Link to="/curiositymugs/basket" style={LinkStyle}>basket</Link>. </UserInfo>
+    <UserInfo>You have <span className='basketinfo'>{ user.basket.length }</span>items in your <Link to="/curiositymugs/basket" style={LinkStyle}>basket</Link>. </UserInfo>
     </TopTexts>
     <TopImage src={require("../images/TopImg.png")} alt="rabbit"/>
     </TopSection>

@@ -57,7 +57,7 @@ const Item = ({ item, user, onBasketAdd }) => {
   return (
     <StockItem>
       <ItemImage src={require("../images/" + item.image)} alt="item" />
-      <Button onClick={onClick}>Add To Basket</Button>
+      <Button onClick={onClick} className='btn'>Add To Basket</Button>
       <ItemInfo>
       {item.name} 
       </ItemInfo>

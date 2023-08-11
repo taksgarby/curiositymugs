@@ -7,10 +7,11 @@ Users can click "Add basket" button to store items they like in the shopping bas
 
 11/06/23 I added mobile responsive features.<br/>
 14/06/23 Added "bespoke" form page. When a user submit a form, I will receive the form input via email. </br>
-15/0623 Added "bespoke sample" page</br>
+15/06/23 Added "bespoke sample" page</br>
+17/06/23 UI tested using Cypress</br>
 
 Next Step: Adding "sort by category" </br>
-Next Step: Adding testing
+Then: Adding payment page
 
 ![Screenshot 2023-06-14 at 15 59 54](https://github.com/taksgarby/curiositymugs/assets/91882718/031c010a-7bc5-489c-9f1e-edddf8c84506)
 

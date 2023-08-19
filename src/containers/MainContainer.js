@@ -28,7 +28,7 @@ const MainContainer = () => {
       <Route path="/curiositymugs/form" element={<RequestForm user={user} onRemoveItem={setUser} />} />
       <Route path="/curiositymugs/bespoke" element={<Bespoke />} />
       <Route path="/curiositymugs/bespokesample" element={<BespokeSample />} />
-      <Route path="/curiositymugs/payment" element={<Payment/>}/>
+      <Route path="/curiositymugs/payment" element={<Payment user={user}/>}/>
       </Routes>
       </Router>
     );

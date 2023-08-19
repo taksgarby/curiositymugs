@@ -4,7 +4,7 @@ describe('Basket', () => {
     }) 
 
     it('Should have 0 items', () => {
-        const basketItems = cy.get('ul > li > span')
+        const basketItems = cy.get('.basketItem')
         basketItems.should('have.length', 0)
 
     })
@@ -15,4 +15,6 @@ describe('Basket', () => {
         const basketInfo = cy.get('.basketinfo')
         basketInfo.should('have.length', 1)
     })
+
+ 
 })

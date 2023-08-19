@@ -1,24 +1,21 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { Link } from "react-router-dom";
 
 const Basket = ( { user, onRemoveItem } ) => {
 
     const Basketlist = styled.div`
-    display: flex;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 2rem;
+        width: 90%;
+        color: #202020;
+        margin: 0;
+        font-size: 1.5rem;
+        `
 
-    justify-content: space-around;
-    flex-direction: column;
-    padding: 2rem;
-    width: 90%;
-    color: #202020;
-    margin: 0;
-    font-size: 1.5rem;
-  `
-
-
-
-    const Button = styled.button `
+    const Button = styled.button`
         background-color: white;
         color: black;
         margin-top: 10px;
@@ -29,11 +26,29 @@ const Basket = ( { user, onRemoveItem } ) => {
         border-radius: 8px;
         font-size: 1.2rem;
      `
+    const PaymentButton = styled.button`
+        background-color: white;
+        color: black;
+        padding: 10px;
+        margin-top: 1rem;
+        border: 2px solid grey; 
+        border-radius: 8px;
+        font-size: 1.2rem;
+        width: 10rem;
+    `
+
 
 
     const BasketTotal = styled.p`
         text-align: center;
+        
     `
+
+    const LinkButton = {
+        textDecoration: "none",
+        color: "#e34d4d"
+
+      };
 
     const removeItem = ( itemToRemove ) => {
         const updatedUser = { ...user };
@@ -46,12 +61,13 @@ const Basket = ( { user, onRemoveItem } ) => {
     const basketComponents = user.basket.map( item => (
         <li>
         
-            <span>
+            <span className='basketItem'>
                 { item.name } £{ item.price }
                 <img src={ require( "../images/" + item.image )} alt="item" style={{margin: 15, width:100, height:100}} />
             </span>
-               
+        
             <Button onClick={ () => removeItem( item ) }>Remove</Button>
+       
             <hr />
         </li >
     ) );
@@ -73,10 +89,16 @@ const Basket = ( { user, onRemoveItem } ) => {
                     { basketComponents }
                 </ul>
                 : <p>Your Basket Is Empty</p> }
-     
+      
+  
         <BasketTotal>
-        
-                Your Shopping Total: £ {basketTotal}
+                Your Shopping Total: £ {basketTotal} <br></br>     
+     
+        <PaymentButton>
+            {user.basket.length > 0
+            ? <Link to="/curiositymugs/payment" style={LinkButton}>Payment</Link>
+            : <Link to="/curiositymugs" style={LinkButton}>Back to Main</Link>}
+        </PaymentButton>
         </BasketTotal>
         </Basketlist>
         </>
